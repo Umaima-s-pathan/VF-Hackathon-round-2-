@@ -1,0 +1,29 @@
+{
+  "name": "vr-180-immersive-experience",
+  "version": "1.0.0",
+  "description": "A VR 180 immersive experience application for AI engineer assignment",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -p 8000 -c-1",
+    "dev": "http-server -p 8000 -c-1"
+  },
+  "dependencies": {
+    "aframe": "^1.4.0",
+    "aframe-environment-component": "^1.3.1",
+    "aframe-extras": "^6.1.1"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "keywords": [
+    "VR",
+    "180",
+    "immersive",
+    "experience",
+    "aframe",
+    "webvr",
+    "virtual-reality"
+  ],
+  "author": "AI Engineer Candidate",
+  "license": "MIT"
+}

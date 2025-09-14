@@ -1,0 +1,31 @@
+# Ignore dependencies and build artifacts
+node_modules/
+outputs/
+pipeline/models/
+.venv/
+*.mp4
+*.mov
+*.avi
+*.mkv
+config/local-config.json
+.npm/
+
+# Build outputs
+/dist/
+/build/
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+
+# OS and editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment / local
+.env
+.vercel
+.netlify
+
